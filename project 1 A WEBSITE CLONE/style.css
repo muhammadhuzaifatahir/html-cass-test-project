@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Segoe UI", -apple-system, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+   
+}
+.color_define{
+    background-color: #0c0c0c;
+}
+header{
+    display: flex;
+    background-color: cyan;
+    height: 80px;
+    margin: 4px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #0000;
+} 
+.logo{
+    height: 90px;
+    width: 100px;
+    margin-left: 5px;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #9819;
+    font-weight: 570;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.nav_bar  :hover{
+    border-bottom: 4px solid #235666
+}
+.nav_bar a sup {
+    color: red;
+    
+}
+.search_bar{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    flex-grow: 1px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search_icon{
+    height: 30px;
+    padding: 5px;
+    box-sizing: content-box;
+    background-color: burlywood;
+    font-weight: 300;
+    border-radius: 4px 0px 0px 4px;
+}
+.search_input{
+    color: red;
+    height: 40px;
+    flex-grow: 1;
+    background-color: lightgreen;
+    border-radius: 5px;
+    border: 0;
+}
+.banner_container{
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    text-align: center;
+    height: 40px;
+    background-color: rgb(32, 32, 36);
+    color: #ffbe21;
+    border: 4px dashed;
+    border-radius: 4px;
+}
+.catagorie_heading{
+    display: flex;
+    flex-wrap: wrap;
+}
+.picture_blue{
+    flex-wrap: wrap;
+    width: 260px;
+}
+.picture_black{
+    flex-wrap: wrap;
+      width: 260px;
+}
+.picture_red{
+    flex-wrap: wrap;
+      width: 260px;
+}
+
+.heading_content{
+    
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    text-align: center;
+    height: 40px;
+    background-color: rgb(32, 32, 36);
+    color: #ffbe21;
+    border: 4px dashed;
+    border-radius: 4px;
+    font-weight: 100px;
+    
+}
